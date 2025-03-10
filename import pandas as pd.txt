@@ -1,0 +1,10 @@
+import pandas as pd
+
+# Define file path
+compare_file = "C:/Users/Mohammed.Marshudi/Desktop/WebsiteWrok/SlackMembersAnalysis/Raw/NCteam.xlsx"
+
+# Load the file
+compare_df = pd.read_excel(compare_file)
+
+# Print available columns
+print("Available Columns in NCteam.xlsx:", compare_df.columns.tolist())
